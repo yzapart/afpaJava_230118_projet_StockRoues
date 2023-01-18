@@ -43,6 +43,9 @@ public class Menu {
 		case 6: 
 			menu6();
 			break;
+		case 7: 
+			menu7();
+			break;
 		}
 	}
 	
@@ -141,6 +144,12 @@ public class Menu {
 		Scanner s = new Scanner(System.in);
 		s.nextLine();
 		afficherMenu("");
+	}
+	
+	static void menu7() {
+		cls();
+		System.out.println("Au revoir.");
+		System.exit(0);
 	}
 	
 	
